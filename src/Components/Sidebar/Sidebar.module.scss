@@ -1,0 +1,38 @@
+.sidebar {
+  min-width: 264px;
+  height: fit-content;
+  padding: 12px;
+  border-radius: 18px;
+  border: 1px solid rgba(207, 207, 228, 1);
+  box-sizing: border-box;
+}
+
+.topic {
+  box-sizing: border-box;
+  min-width: 222px;
+  height: 42px;
+  padding: 12px;
+  border-radius: 12px;
+  opacity: 0px;
+  cursor: pointer;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  text-align: left;
+}
+
+.active {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(95, 191, 119, 1);
+}
+
+.text {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  text-align: left;
+}
