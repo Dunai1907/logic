@@ -1,11 +1,7 @@
-import { useState } from "react";
-import "./App.css";
+import Layout from "./Pages/layout";
 
-function App() {
-  // const [count, setCount] = useState(0);
-  
-
-  return <></>;
-}
+const App: React.FC = () => {
+  return <Layout />;
+};
 
 export default App;
